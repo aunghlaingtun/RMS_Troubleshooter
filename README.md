@@ -26,14 +26,14 @@ Keep the original export names. The app recognises them by prefix and by the `si
 | `loop_map_*.csv` | Loop topology, FCU status, failures |
 | `syslogs_*.tgz` | RMS system log |
 
-Excel (`.xlsx`) versions of the CSV files also work. You can upload some or all of the files; each tab shows what it can from what you give it.
+Excel (`.xlsx`) versions of the CSV files also work. You can be upload some or all of the files; each tab shows what it can from what you give it.
 
-## Run on your own computer
+## Run on your own personal computer 
 
 Needs Python 3.10 or newer.
 
 ```
-python3 -m venv venv
+python3 -m venv venv            # for virtual env 
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run rms_app.py
